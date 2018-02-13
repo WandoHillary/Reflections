@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository the git subdirectory is created in the repository. This is needed so as to keep track of the files in the repository in case they one needs to commit any or all of them.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the working directory and repository in that it is a temporary directory for holding files before commiting them from the working directory to the repository. Its valuable because it allows the programmer to choose the files he/she wants to commit to the repository and provides a holding area from which commits are reversible.
